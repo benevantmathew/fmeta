@@ -3,17 +3,12 @@ import sys
 import pandas as pd
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
+from fmeta.version import __version__
+from fmeta.version import __author__
+from fmeta.version import __email__
 
 # varaible
 size_col="Size (MB)"
-
-# Set a default version for standalone execution
-try:
-	from version import __version__  
-	from . import __author__  
-except ImportError:
-	__version__ = "0.1.0"
-	__author__ = "Benevant Mathew"
 
 # Function to display help
 def print_help():
@@ -123,7 +118,15 @@ def main():
 	if "--version" in sys.argv or "-v" in sys.argv:
 		print(f"fmeta version {__version__}")
 		sys.exit(0)
-	
+
+	if "--author" in sys.argv or "-a" in sys.argv:
+		print(f"Author {__author__}")
+		sys.exit(0)
+
+	if "--email" in sys.argv or "-e" in sys.argv:
+		print(f"Mailto {__email__}")
+		sys.exit(0)
+
 	if "--help" in sys.argv or "-h" in sys.argv:
 		print_help()
 		sys.exit(0)
