@@ -1,5 +1,8 @@
 # Changelog
 
+## version 0.1.4 (Bugfix) - 15-11-2025
+- add MANIFEST.in to upload LICENSE README.md CHANGELOG.md
+
 ## Version 0.1.3 (Bugfix) - 15-03-2025
 - fixed the issue with wrong version output.
 
