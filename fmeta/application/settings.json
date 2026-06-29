@@ -1,0 +1,14 @@
+{
+    "ui": {
+        "theme": "dark",
+        "font_family": "Arial",
+        "font_size": 12,
+        "result_font_family": "Arial",
+        "result_font_size": 12,
+        "tk_scaling": 1.15,
+        "window_width": 560,
+        "window_height": 280,
+        "popup_width": 1000,
+        "popup_height": 520
+    }
+}

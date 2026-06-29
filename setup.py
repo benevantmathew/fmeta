@@ -19,7 +19,9 @@ setup(
     author="Benevant Mathew",
     author_email="benevantmathewv@gmail.com",
     license="MIT",
-    packages=find_packages(include=["fmeta"]),
+    packages=find_packages(include=["fmeta", "fmeta.*"]),
+    include_package_data=True,
+    package_data={"fmeta": ["application/*.json"]},
     install_requires=[
         "pandas>=1.3",  # Allows flexibility while avoiding forced updates
     ],
