@@ -1,0 +1,9 @@
+[project]
+name = "fmeta"
+version = "1.0.0"
+description = "A small package to scan directories and list file metadata in a tabular format."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=3.0.3",
+]

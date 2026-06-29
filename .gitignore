@@ -27,8 +27,8 @@ __pycache__/
 PKGBUILD
 *.SRCINFO
 
-# Benevant's Scripts
+#
 setup
 pypi_setup
-windows_setup
-
+.vscode
+uv.lock
